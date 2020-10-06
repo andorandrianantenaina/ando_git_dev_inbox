@@ -4427,7 +4427,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     /*# sourceMappingURL=bootstrap.min.css.map */
 
 
-/*@font-face {
+@font-face {
     font-family: "montserrat";
     src: url("../font/Montserrat-Bold.ttf");
     font-weight: 600;
@@ -4435,7 +4435,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 @font-face {
     font-family: "montserrat";
     src: url("../font/Montserrat-Light.ttf");
-    font-weight: 100;*/
+    font-weight: 100;
 }
 
 body{
