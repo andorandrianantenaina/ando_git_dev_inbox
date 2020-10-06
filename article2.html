@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accueil</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="jquery/jquery.min.js"></script>
+	<script src="jquery/popper.min.js"></script>
+	<script src="jquery/bootstrap.min.js"></script>
+</head>
+<body> 
+
+	<!-- navbar -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-image:linear-gradient(to right, #242e59, #293361, #212536);">
+				  <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+				  <button style="width:initial"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link "href="index.html">Accueil</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link " href="nos_produits.html">Nos produits</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link active" href="actualites.html">Actualités</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link " href="contact.html">Contacts</a>
+				      </li>
+				    </ul>
+				    <ul class="navbar-nav">
+					    <li class="nav-item">
+					        <a class="nav-link" href="panier.html"><i class="fa fa-shopping-cart" style="font-size:18px"></i> Mon panier</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link" href="login.html"><i class="fa fa-user" style="font-size:18px"></i> Login</a>
+					    </li>
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<!-- barre de recherche et filtre -->
+	<div class="container-fluid secondbar">
+		<div class="row">
+			<div class="col-md-1">
+				<a href="actualites.html"><h2> <i class="fa fa-mail-reply" style="font-size:18px"></i> Retour</h2></a>
+			</div>
+			<div class="col-md-7">
+				<h2>Restez informer sur tous nos activités</h2>
+			</div>
+			<div class="col-md-4">
+				<form class="recherchez" action="#">
+				  <input type="text" placeholder="Search.." name="search2">
+				  <button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- liste produites -->
+	<div class="container-fluid list-produits">
+		<div class="row">
+			<div class="col-md-9 card-produits">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12" style="; margin:0px auto; padding:0px 4px; overflow: hidden;">
+					            <div class="container-blog">  
+								     <h2 style="font-size: 30px;font-weight: 600; text-align: center; margin:30px 0;">Aménager une salle à manger</h2>
+								      <div class="img-blog">
+								        <img style="width:100%;" src="img/article2img.jpg">
+								      </div>
+								      <div class="description-blog" style="margin:30px 0;">
+											<p style="text-align: justify;">
+											1. Faire de la salle à manger un vrai lieu de vie
+											La salle à manger ou le coin repas doit être centré sur la vie de ses habitants. "L'angoisse, c'est d'avoir un espace mort, où il ne se passe rien, confirme Camille Hermand, architecte d'intérieur. Pour éviter cela, on donne une seconde utilité à la table de la salle à manger. Par exemple, s'il y a des enfants dans la maison, on place la table au milieu de la pièce pour créer un lieu pour les devoirs ou les coloriages."  
+											La clé d'une salle à manger pleine de vie, c'est aussi son dynamisme. La table et les chaises créent le rythme. "Diversifiez les assises, conseille Camille Hermand. Par exemple, placez un fauteuil assez confortable à côté d'une chaise un peu plus rigide. Le repas sera ainsi plus dynamique et convivial." La mobilité des convives et du mobilier apportent pep et bonne humeur autour de la table.
+											</p>
+											<p style="text-align: justify;">
+											2. Bien positionner le coin salle à manger
+											La principale qualité de la salle à manger ou du coin repas est d'être pratique au quotidien. Entre la salle à manger et la cuisine, prévoyez un chemin facile pour les nombreuses allées et venues. De même, ne négligez pas le périmètre nécessaire aux chaises afin de permettre à chacun d'être à l'aise. L'espace autour de la table est également primordial pour avoir une bonne circulation. 
+											Selon les envies et la disposition des pièces, la salle à manger peut être ouverte sur la cuisine. Ouvrir l'espace permet une plus grande fluidité et dégage l'accès vers la cuisine. Avant de faire votre choix, mettez à plat les inconvénients et avantages de chaque configuration. Si elle est tendance, la cuisine ouverte ne convient pour autant pas à tous.
+											</p>
+								      </div>
+								</div>			        				        
+						</div>									
+					</div>
+					<!-- pagination -->
+					<div class="pagination-center">
+					  <div class="pagination">
+					  <a href="#">&laquo;</a>
+					  <a href="#" class="active">1</a>
+					  <a href="#">2</a>
+					  <a href="#">3</a>
+					  <a href="#">&raquo;</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 fixed-left">
+			    <div class=filtre-produit>
+			    	  <h2>A propos</h2>
+			          <p>Vous décrouvrez ici toutes les informations nous concernant. Nous partageons des conseils et astuces pour vous mettre à l'aise dans vos projets de décoration</p>
+
+			          <h2>Tags</h2>
+			          <div class="quizz-pays"> 
+			              <form action="/action_page.php">
+			                  <input type="checkbox" id="conseils" name="conseils" value="tags">
+			                  <label for="conseils"> Conseils</label><br>
+			                  <input type="checkbox" id="information" name="information" value="tags">
+			                  <label for="information"> Information</label><br>
+			                  <input type="checkbox" id="nouveautes" name="nouveautes" value="tags">
+			                  <label for="nouveautes"> Nouveautés</label><br>
+			                  <input type="checkbox" id="interieurs" name="interieurs" value="tags">
+			                  <label for="interieurs"> Intérieurs</label><br>
+			                  <input type="checkbox" id="exterieurs" name="exterieurs" value="tags">
+			                  <label for="exterieurs"> Extérieurs</label><br>
+			                  <input type="checkbox" id="jardin" name="jardin" value="tags">
+			                  <label for="jardin"> Jardin</label><br>
+			                  <input type="checkbox" id="terrasse" name="terrasse" value="tags">
+			                  <label for="terrasse"> Terrasse</label><br>
+			                  <input type="checkbox" id="cuisine" name="cuisine" value="tags">
+			                  <label for="cuisine"> Cuisine</label><br>
+			              </form> 
+			          </div>
+			    </div>
+			    <div class="submit"><input type="button" onclick="alert('Filtre activé!')" value="Soumettre">
+			    </div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="container-fluid footer">
+		<div class="row">
+			<div class="col-md-4" style="list-style-type: none;margin-bottom: 20px; color:white‹;">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="nos_produits.html">Nos services</a></li>
+					<li><a href="actualites.html">Actualités</a></li>
+					<li><a href="contact.html">Nous contacter</a></li>
+					<li><a href="panier.html">Mon panier</a></li>
+					<li><a href="login.html">Se connecter</a></li>
+			</div>
+			<div class="col-md-4" style="margin-bottom: 20px">
+				<p><a href="mailto:mail@fanaka.com">mail@fanaka.com </a><br>+261 33 33 333 33</p>
+				<p>Immeuble 2K Analakely <br>Rue Lapan'ny Tanàna <br>101 Antananarivo <br>Madagascar</p>
+
+			</div>
+			<div class="col-md-4">
+					<p>copyright &copy; 2020 <br>Andosoa RANDRIANANTENAINA</p>
+					<img src="img/facebook.png" style="margin-right: 5px">
+					<img src="img/linkedin.png" style="margin-right: 5px">
+					<img src="img/twitter.png" >
+			</div>
+		</div>
+	</div>
+</body>
+</html>

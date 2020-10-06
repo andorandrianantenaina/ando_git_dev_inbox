@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accueil</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="jquery/jquery.min.js"></script>
+	<script src="jquery/popper.min.js"></script>
+	<script src="jquery/bootstrap.min.js"></script>
+</head>
+<body> 
+
+	<!-- navbar -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-image:linear-gradient(to right, #242e59, #293361, #212536);">
+				  <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+				  <button style="width:initial"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link "href="index.html">Accueil</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link " href="nos_produits.html">Nos produits</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="actualites.html">Actualités</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link " href="contact.html">Contacts</a>
+				      </li>
+				    </ul>
+				    <ul class="navbar-nav">
+					    <li class="nav-item">
+					        <a class="nav-link active" href="panier.html"><i class="fa fa-shopping-cart" style="font-size:18px"></i> Mon panier</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link" href="login.html"><i class="fa fa-user" style="font-size:18px"></i> Login</a>
+					    </li>
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<!-- barre de recherche et filtre -->
+	<div class="container-fluid secondbar">
+		<div class="row">
+			<div class="col-md-8">
+				<h2>Découvrez tous nos produits</h2>
+			</div>
+			<div class="col-md-4">
+				<form class="recherchez" action="#">
+				  <input type="text" placeholder="Search.." name="search2">
+				  <button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- liste produites -->
+	<div class="container-fluid list-produits" style="min-height: 600px">
+		<div class="row">
+			<div class="col-md-3 fixed-left"style="min-height: 600px" >
+				 <div class=filtre-produit>
+	          		<div class="container">
+						  <h1>TOTAL</h1>       
+						  <table class="table table-hover">
+							    <thead>
+							      <tr>
+							        <th>Obs.</th>
+							        <th>Montant</th>
+							      </tr>
+							    </thead>
+							    <tbody>
+							      <tr>
+							        <td>Sous Total</td>
+							        <td>3.000.000 Ar</td>
+							      </tr>
+							      <tr>
+							        <td>TVA (20%)</td>
+							        <td>600.000 Ar</td>
+							      </tr>
+							      <tr>
+							        <td><strong>Total</strong></td>
+							        <td><strong>3.600.000 Ar</strong></td>
+							      </tr>
+							    </tbody>
+						  </table>
+					</div>
+				 </div>
+			</div>
+			<div class="col-md-9 card-produits">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12" style="margin:0px auto; padding:0px 4px">
+			           		<div class="container" style=" overflow-x:scroll ;min-width: 900px">
+								  <h1>Vérifier votre commande</h1>       
+								  <table class="table table-hover" style="overflow:hidden;">
+									    <thead>
+									      <tr>
+									        <th>Article</th>
+									        <th>Quantité</th>
+									        <th>Prix</th>
+									        <th>Suppression</th>
+									      </tr>
+									    </thead>
+									    <tbody>
+									      <tr>
+									        <td>Canapé</td>
+									        <td> <strong>-</strong> </i> <input id="plusmoins" type="text"value="1" style="text-align: center"> <strong>+</strong> </i></td>
+									        <td>1.500.000 Ar</td>
+									        <td><i class="fa fa-times-circle"></i> Retirer</td>
+									      </tr>
+									      <tr>
+									        <td>Chaîse</td>
+									        <td> <strong>-</strong> </i> <input id="plusmoins" type="text"value="1" style="text-align: center"> <strong>+</strong> </i></td>
+									        <td>700.000 Ar</td>
+									        <td><i class="fa fa-times-circle"></i> Retirer</td>
+									      </tr>
+									      <tr>
+									        <td>Fauteil</td>
+									        <td> <strong>-</strong> </i> <input id="plusmoins" type="text"value="1" style="text-align: center"> <strong>+</strong> </i></td>
+									        <td>800.000 Ar</td>
+									        <td><i class="fa fa-times-circle"></i> Retirer</td>
+									      </tr>
+									    </tbody>
+								  </table>
+							</div>
+						</div>			
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="pagerbutton">
+						<div style="margin-right: auto!important">
+							<a href="#">
+								<button type="button" class="btn btn-secondary">Continuez vos achats</button>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<button type="button" class="btn btn-secondary" >Payer maintenant</button>
+							</a>
+						</div>								
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="container-fluid footer">
+		<div class="row">
+			<div class="col-md-4" style="list-style-type: none;margin-bottom: 20px; color:white‹;">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="nos_produits.html">Nos services</a></li>
+					<li><a href="actualites.html">Actualités</a></li>
+					<li><a href="contact.html">Nous contacter</a></li>
+					<li><a href="panier.html">Mon panier</a></li>
+					<li><a href="login.html">Se connecter</a></li>
+			</div>
+			<div class="col-md-4" style="margin-bottom: 20px">
+				<p><a href="mailto:mail@fanaka.com">mail@fanaka.com </a><br>+261 33 33 333 33</p>
+				<p>Immeuble 2K Analakely <br>Rue Lapan'ny Tanàna <br>101 Antananarivo <br>Madagascar</p>
+
+			</div>
+			<div class="col-md-4">
+					<p>copyright &copy; 2020 <br>Andosoa RANDRIANANTENAINA</p>
+					<img src="img/facebook.png" style="margin-right: 5px">
+					<img src="img/linkedin.png" style="margin-right: 5px">
+					<img src="img/twitter.png" >
+			</div>
+		</div>
+	</div>
+</body>
+</html>
